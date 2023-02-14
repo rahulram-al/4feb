@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}*
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+ }
+ /* btn or nav */
+ header {
+    padding: 15px 0;
+  }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; 
+ }
+ nav .logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(12, 12, 12);
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500px;
+  }
+  nav li{
+    list-style: none;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500px;
+    font-size: medium;
+    font-weight: bold;
+    font-size: small;
+}
+button{
+    background-color: rgb(138, 43, 226) ;
+    color: whitesmoke;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+}
+.left-btn{
+    height: 60px;
+    width: fit-content;
+}
+button :hover{
+    background-color: white;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+  }
+  /* left div */
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 117px;
+    text-align: start;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .left-div h3{
+    font-weight: 400px;
+    font-size: 35px;
+    color: rgb(77, 46, 108);
+}
+.right-div-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  width: 570px;
+}
+.left-div p{
+  color: slategray;
+}
+.left-div span{
+  font-weight: 400px;
+  font-size: 35px;
+  color: rgb(108, 19, 241);
+}
+
